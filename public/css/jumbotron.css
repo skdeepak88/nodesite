@@ -1,0 +1,27 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+    background:
+    /* top, transparent #b3d4fc, faked with gradient */
+        linear-gradient(
+          rgba(0, 230, 255, 0.75),
+          rgba(0, 230, 255, 0.65)
+        ),
+        url('../images/background.jpg');
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #252525;
+    border-color: #5F5F5F;
+}
+
+.btn-primary:hover {
+    background-color: #3E3D3D;
+    border-color: #5F5F5F;
+}
